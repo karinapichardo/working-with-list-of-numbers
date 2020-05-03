@@ -1,8 +1,7 @@
 /* Create a function which returns the total of all odd numbers up to and including n. n will be given as an odd number. */
-
-	function addOddToN(n) {
-	    if (n % 2 === 1) {
-            n++;
+function addOddToN(n) {
+    if (n % 2 === 1) {
+        n++;
   } 
   return n * n / 4;
 }
